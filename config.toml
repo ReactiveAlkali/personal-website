@@ -1,3 +1,43 @@
-baseURL = "http://example.org/"
-languageCode = "en-us"
-title = "My New Hugo Site"
+baseURL = "http://aaronnedelec.ca/"
+languageCode = "en"
+title = "aaronnedelec"
+theme = "hugo-coder"
+defualtcontentlanguage = "en"
+
+[params]
+	author = "Aaron Nedelec"
+	info = "Physics and Computer Science Student at the University of Manitoba"
+	description = "Aaron Nedelec's personal website"
+	keywords = "personal,student"
+	colorScheme = "dark"
+
+# Social Links
+[[params.social]]
+	name = "Github"
+	icon = "fa fa-github fa-2x"
+	weight = 1
+	url = "https://github.com/ReactiveAlkali/"
+[[params.social]]
+	name = "Gitlab"
+	icon = "fa fa-gitlab fa-2x"
+	weight = 2
+	url = "https://gitlab.com/ReactiveAlkali/"
+[[params.social]]
+	name = "LinkedIn"
+	icon = "fa fa-linkedin"
+	weight = 3
+	url = "https://www.linkedin.com/in/aaron-n%C3%A9d%C3%A9lec-5b252b157/"
+
+# Menu Links
+[[menu.main]]
+	name = "About"
+	weight = 1
+	url = "about/"
+[[menu.main]]
+	name = "Projects"
+	weight = 2
+	url = "projects/"
+#[[menu.main]]
+#	name = "Contact"
+#	weight = 3
+#	url = "contact/"
